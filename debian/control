@@ -1,0 +1,17 @@
+Source: locales-reproducible
+Section: devel
+Priority: optional
+Maintainer: Reproducible builds folks <reproducible-builds@lists.alioth.debian.org>
+Uploaders: Chris Lamb <lamby@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://wiki.debian.org/ReproducibleBuilds
+Vcs-Git: git://anonscm.debian.org/reproducible/locales-reproducible.git
+Vcs-Browser: https://anonscm.debian.org/cgit/reproducible/locales-reproducible.git
+
+Package: locales-reproducible
+Architecture: all
+Depends: ${misc:Depends}
+Description: torture locales for the Debian Reproducible Builds project
+ locales-reproducible was written as part of the “reproducible builds” Debian
+ project.
